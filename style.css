@@ -65,9 +65,9 @@ p {
 }
 
 .float-right {
-    float: right;
+    display: flex;
     margin-left: 25px;
-    display: inline-block;
+    float:right
 }
 
 .content {
@@ -140,4 +140,16 @@ p {
 }
 .inlinecontent {
     display:  inherit;
+}
+
+.container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-align {
+    text-align: left;
+}
+.digitalimage {
+    max-width: 200px;
 }
